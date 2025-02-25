@@ -56,10 +56,10 @@ public class login_test {
             driver.getPage().locator("#otp_1").press("2");
             driver.getPage().locator("#otp_2").press("3");
             driver.getPage().locator("#otp_3").press("4");
-            driver.getPage().waitForTimeout(5000);
+            driver.getPage().waitForTimeout(2000);
             driver.enableElementByButton("Submit OTP");
             driver.clickElementByButton("Submit OTP");
-            driver.getPage().waitForTimeout(5000);
+            driver.getPage().waitForTimeout(2000);
             logger.info("login Sucessfully");
 
         }
@@ -78,35 +78,97 @@ public class login_test {
 
     @Test(priority = 2)
     public void merchantManagement() {
-        driver.getPage().waitForTimeout(5000);
+
+        driver.getPage().waitForTimeout(3000);
         driver.visiableElementByButton("Merchant Management");
         driver.clickElementByButton("Merchant Management");
         driver.clickElementByButton("All Merchants");
         logger.info("All merchant page opened");
-        driver.clickElementByButton("Add New Merchant");
-        driver.getPage().waitForTimeout(5000);
+        page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("more")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Aggregator")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Aggregator")).fill("pay");
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Paygate India Pvt Ltd")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Parent Merchant")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("PG merchant")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Merchant Name")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Merchant Name")).fill("newMerchant");
+        page.locator("div:nth-child(4) > div > .MuiBox-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root").click();
+        //page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Reseller")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Business Registered Name")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Business Registered Name")).fill("newME");
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Industry")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("E-Commerce")).click();
+       // page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Plan Name")).click();
+        page.locator("div:nth-child(6) > div > .MuiBox-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root").click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Sole Trader/ Proprietorship/")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Sub Sector")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Sub Sector")).fill("medical");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Trade License Number")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Trade License Number")).fill("465643436436436436");
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Business Type")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("B2B")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Select Date").setExact(true)).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Choose Tuesday, February 25th,")).dblclick();
+        page.locator("textarea[name=\"business_description\"]").click();
+        page.locator("textarea[name=\"business_description\"]").fill("Testing");
+
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Annual Turnover")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("$ 25-100 Million")).click();
+        page.locator("textarea[name=\"legal_office_address\\.\"]").click();
+        page.locator("textarea[name=\"legal_office_address\\.\"]").fill("thane");
+        page.locator("div:nth-child(12) > div:nth-child(2) > .MuiBox-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root").click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("India")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter city")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter city")).fill("pune");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter State")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter State")).fill("MH");
+        page.locator("#pincode").click();
+        page.locator("#pincode").fill("416311");
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Processing Currencies")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("IN - INR")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Settlement Currencies")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("IN - INR")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Integration Type")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Aggregator Hosted").setExact(true)).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Arrears Days")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("2").setExact(true)).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Payment Cycle")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("T + 1").setExact(true)).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter First Name")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter First Name")).fill("swapnil");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Last Name")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Last Name")).fill("patil");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Select Date of Birth")).click();
+        page.getByText("9101112131415").dblclick();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Emirates ID: Starts from")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Emirates ID: Starts from")).fill("784121212121212");
+        page.locator("#email_id").click();
+        page.locator("#email_id").fill("swapnilp@safexpay.com");
+        page.locator("div:nth-child(27) > div:nth-child(2) > .MuiBox-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment > .MuiButtonBase-root").click();
+        page.locator("#dial_Code_demo132rds").nth(1).fill("91");
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("+91")).click();
+        page.locator("#mobile_no").click();
+        page.locator("#mobile_no").fill("9921415238");
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Relationship with the")).click();
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Director").setExact(true)).click();
+        page.locator("#compadial_Code_demo132rds").click();
+        page.locator("#compadial_Code_demo132rds").fill("91");
+        page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("+91")).click();
+        page.locator("#company_phone").click();
+        page.locator("#company_phone").fill("9921415238");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter website url")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter website url")).fill("www.goggle.com");
+        page.locator("#support_email_id").click();
+        page.locator("#support_email_id").fill("swapnilp@safexpay.com");
+        page.locator("#notification_email_id").click();
+        page.locator("#notification_email_id").fill("swapnilp@safexpay.com");
+        page.locator("#notification_email_id").press("Tab");
+        driver.clickElementByButton("Save & Continue");
+
+
+
+        driver.getPage().waitForTimeout(3000);
     }
-
-    public void createMerchant(){
-        driver.clickElementByTextBoX("Paygate India Pvt Ltd");
-        driver.fillElementByTextBoX("Select Aggregator","Paygate India Pvt Ltd");
-        driver.getPage().locator("//input[@value=\"Paygate India Pvt Ltd\"]").click();
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

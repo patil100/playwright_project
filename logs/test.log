@@ -1,28 +1,19 @@
-2025-02-19 15:05:26 INFO  login_test:28 - browser opened
-2025-02-19 15:17:26 INFO  login_test:28 - browser opened
-2025-02-19 15:20:33 INFO  login_test:28 - browser opened
-2025-02-19 15:23:58 INFO  login_test:28 - browser opened
-2025-02-19 15:24:26 INFO  login_test:54 - login Sucessfully
-2025-02-19 18:00:39 INFO  login_test:32 - browser opened
-2025-02-19 18:02:10 INFO  login_test:32 - browser opened
-2025-02-19 18:02:42 INFO  login_test:58 - login Sucessfully
-2025-02-19 18:02:48 INFO  login_test:68 - All merchant page opened
-2025-02-20 11:37:46 INFO  login_test:37 - browser opened
-2025-02-20 11:39:34 INFO  login_test:37 - browser opened
-2025-02-20 11:53:20 INFO  login_test:37 - browser opened
-2025-02-20 12:02:39 INFO  login_test:37 - browser opened
-2025-02-20 14:13:28 INFO  login_test:37 - browser opened
-2025-02-20 14:13:40 INFO  login_test:39 - open Cross border page
-2025-02-20 14:14:29 INFO  login_test:66 - login Sucessfully
-2025-02-20 14:15:24 INFO  login_test:37 - browser opened
-2025-02-20 14:15:31 INFO  login_test:39 - open Cross border page
-2025-02-20 14:15:44 INFO  login_test:66 - login Sucessfully
-2025-02-20 14:15:49 INFO  login_test:92 - All merchant page opened
-2025-02-20 18:17:30 INFO  login_test:36 - browser opened
-2025-02-20 18:17:45 INFO  login_test:38 - open Cross border page
-2025-02-20 18:18:05 INFO  login_test:63 - login Sucessfully
-2025-02-20 18:18:10 INFO  login_test:85 - All merchant page opened
-2025-02-20 18:20:05 INFO  login_test:36 - browser opened
-2025-02-20 18:20:19 INFO  login_test:38 - open Cross border page
-2025-02-20 18:20:39 INFO  login_test:63 - login Sucessfully
-2025-02-20 18:20:44 INFO  login_test:85 - All merchant page opened
+2025-02-25 15:58:32 INFO  login_test:36 - browser opened
+2025-02-25 15:58:41 INFO  login_test:38 - open Cross border page
+2025-02-25 15:58:54 INFO  login_test:63 - login Sucessfully
+2025-02-25 16:01:22 INFO  login_test:36 - browser opened
+2025-02-25 16:01:29 INFO  login_test:38 - open Cross border page
+2025-02-25 16:01:43 INFO  login_test:63 - login Sucessfully
+2025-02-25 16:01:46 INFO  login_test:85 - All merchant page opened
+2025-02-25 16:16:21 INFO  login_test:36 - browser opened
+2025-02-25 16:16:28 INFO  login_test:38 - open Cross border page
+2025-02-25 16:37:01 INFO  login_test:36 - browser opened
+2025-02-25 16:37:08 INFO  login_test:38 - open Cross border page
+2025-02-25 16:38:43 INFO  login_test:36 - browser opened
+2025-02-25 16:38:51 INFO  login_test:38 - open Cross border page
+2025-02-25 16:39:04 INFO  login_test:63 - login Sucessfully
+2025-02-25 16:39:08 INFO  login_test:86 - All merchant page opened
+2025-02-25 16:45:15 INFO  login_test:36 - browser opened
+2025-02-25 16:45:24 INFO  login_test:38 - open Cross border page
+2025-02-25 16:45:37 INFO  login_test:63 - login Sucessfully
+2025-02-25 16:45:40 INFO  login_test:86 - All merchant page opened
