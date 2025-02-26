@@ -1,19 +1,7 @@
-2025-02-25 15:58:32 INFO  login_test:36 - browser opened
-2025-02-25 15:58:41 INFO  login_test:38 - open Cross border page
-2025-02-25 15:58:54 INFO  login_test:63 - login Sucessfully
-2025-02-25 16:01:22 INFO  login_test:36 - browser opened
-2025-02-25 16:01:29 INFO  login_test:38 - open Cross border page
-2025-02-25 16:01:43 INFO  login_test:63 - login Sucessfully
-2025-02-25 16:01:46 INFO  login_test:85 - All merchant page opened
-2025-02-25 16:16:21 INFO  login_test:36 - browser opened
-2025-02-25 16:16:28 INFO  login_test:38 - open Cross border page
-2025-02-25 16:37:01 INFO  login_test:36 - browser opened
-2025-02-25 16:37:08 INFO  login_test:38 - open Cross border page
-2025-02-25 16:38:43 INFO  login_test:36 - browser opened
-2025-02-25 16:38:51 INFO  login_test:38 - open Cross border page
-2025-02-25 16:39:04 INFO  login_test:63 - login Sucessfully
-2025-02-25 16:39:08 INFO  login_test:86 - All merchant page opened
-2025-02-25 16:45:15 INFO  login_test:36 - browser opened
-2025-02-25 16:45:24 INFO  login_test:38 - open Cross border page
-2025-02-25 16:45:37 INFO  login_test:63 - login Sucessfully
-2025-02-25 16:45:40 INFO  login_test:86 - All merchant page opened
+2025-02-26 17:13:26 INFO  login_test:36 - browser opened
+2025-02-26 17:13:35 INFO  login_test:38 - open Cross border page
+2025-02-26 17:24:37 INFO  login_test:34 - browser opened
+2025-02-26 17:32:47 INFO  login_test:34 - browser opened
+2025-02-26 17:32:56 INFO  login_test:36 - open Cross border page
+2025-02-26 17:33:09 INFO  login_test:61 - login Sucessfully
+2025-02-26 17:33:12 INFO  login_test:84 - All merchant page opened

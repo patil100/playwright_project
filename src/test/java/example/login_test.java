@@ -1,6 +1,6 @@
-package org.example;
+package example;
 
-import org.example.driver;
+import example.driver;
 import Utility.CsvReader;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
@@ -10,17 +10,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.awt.*;
-import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-import static org.example.driver.clickElementByTextBoX;
-import static org.example.driver.fillElementByTextBoX;
-import static org.example.driver.clickElementByButton;
-import static org.example.driver.enableElementByButton;
-import static org.example.driver.visiableElementByButton;
+import static example.driver.clickElementByTextBoX;
+import static example.driver.fillElementByTextBoX;
+import static example.driver.clickElementByButton;
+import static example.driver.enableElementByButton;
+import static example.driver.visiableElementByButton;
 
 
 public class login_test {

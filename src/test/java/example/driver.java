@@ -1,14 +1,8 @@
-package org.example;
+package example;
 
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;
-
-
-import java.nio.file.Paths;
-import java.util.regex.Pattern;
-
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 
 public class driver {
@@ -54,6 +48,10 @@ public class driver {
         element.click();
     }
 
+    public static void clickElementByLINK(String textname) {
+        Locator element=getElementByRole(AriaRole.LINK, textname);
+        element.click();
+    }
 
 
 
