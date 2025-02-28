@@ -30,7 +30,10 @@ public class driver {
 
     public static Page getPage() {
         if (page == null) {
-            throw new IllegalStateException("Browser is not initialized. Call launchBrowser() first.");
+
+//            throw new IllegalStateException("Browser is not initialized. Call launchBrowser() first.");
+            System.out.println("Browser not initialized. Launching browser...");
+            lunchBrowser();
         }
         return page;
     }
