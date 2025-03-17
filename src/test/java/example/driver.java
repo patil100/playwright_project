@@ -24,20 +24,36 @@ public class driver {
 
         } catch (Exception e) {
             System.out.println("browser lunch failed " + e.getMessage());
+            e.printStackTrace();
+            throw new RuntimeException("Failed to create driver", e);
         }
     }
+
+
+//    public static Page getPage() {
+//        if (page == null) {
+//
+////            throw new IllegalStateException("Browser is not initialized. Call launchBrowser() first.");
+//            System.out.println("Browser not initialized. Launching browser...");
+//            lunchBrowser();
+//        }
+//        return page;
+//    }
+
+
+
 
 
     public static Page getPage() {
         if (page == null) {
-
-//            throw new IllegalStateException("Browser is not initialized. Call launchBrowser() first.");
-            System.out.println("Browser not initialized. Launching browser...");
+            System.out.println("⚠ Browser not initialized. Launching browser...");
             lunchBrowser();
+        }
+        if (page == null) {
+            throw new IllegalStateException("Browser failed to initialize even after launching!");
         }
         return page;
     }
-
     public static Locator getElementByRole(AriaRole role, String textname) {
         return getPage().getByRole(role, new Page.GetByRoleOptions().setName(textname));
     }

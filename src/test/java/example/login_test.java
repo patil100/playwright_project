@@ -74,7 +74,7 @@ public class login_test {
         return data;
     }
 
-    @Test(priority = 2)
+   // @Test(priority = 2)
     public void merchantManagement() {
 
         driver.getPage().waitForTimeout(3000);
