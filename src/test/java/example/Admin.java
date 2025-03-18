@@ -1,6 +1,5 @@
 package example;
 
-import example.driver;
 import Utility.CsvReader;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
@@ -14,18 +13,13 @@ import java.util.List;
 import java.util.Map;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-import static example.driver.clickElementByTextBoX;
-import static example.driver.fillElementByTextBoX;
-import static example.driver.clickElementByButton;
-import static example.driver.enableElementByButton;
-import static example.driver.visiableElementByButton;
 
 
-public class login_test {
+public class Admin {
 
     private Page page;
 
-    private final static Logger logger = LogManager.getLogger(login_test.class);
+    private final static Logger logger = LogManager.getLogger(Admin.class);
 
     @BeforeTest
     public void Setup() {
@@ -58,7 +52,7 @@ public class login_test {
             driver.enableElementByButton("Submit OTP");
             driver.clickElementByButton("Submit OTP");
             driver.getPage().waitForTimeout(2000);
-            logger.info("login Sucessfully");
+            logger.info("Admin login Sucessfully");
 
         }
 
@@ -78,18 +72,18 @@ public class login_test {
     public void merchantManagement() {
 
         driver.getPage().waitForTimeout(3000);
-        driver.visiableElementByButton("Merchant Management");
-        driver.clickElementByButton("Merchant Management");
+        driver.visiableElementByButton("merchant Management");
+        driver.clickElementByButton("merchant Management");
         driver.clickElementByButton("All Merchants");
         logger.info("All merchant page opened");
         page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("more")).click();
         page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Aggregator")).click();
         page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Aggregator")).fill("pay");
         page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Paygate India Pvt Ltd")).click();
-        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Parent Merchant")).click();
+        page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Parent merchant")).click();
         page.getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("PG merchant")).click();
-        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Merchant Name")).click();
-        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Merchant Name")).fill("newMerchant");
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter merchant Name")).click();
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter merchant Name")).fill("newMerchant");
         page.locator("div:nth-child(4) > div > .MuiBox-root > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root").click();
         //page.getByRole(AriaRole.COMBOBOX, new Page.GetByRoleOptions().setName("Select Reseller")).click();
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Business Registered Name")).click();

@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/PlayWrite_project">
         <classes>
-            <class name="example.login_test">
+            <class name="example.Admin">
                 <methods>
                     <include name="testLogin"/>
                     <include name="merchantManagement"/>

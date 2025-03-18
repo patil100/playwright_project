@@ -19,6 +19,7 @@ public class driver {
             playwright = Playwright.create();
             browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
                     .setHeadless(false));
+
             browserContext = browser.newContext();
             page = browserContext.newPage();
 
@@ -46,7 +47,7 @@ public class driver {
 
     public static Page getPage() {
         if (page == null) {
-            System.out.println("⚠ Browser not initialized. Launching browser...");
+            System.out.println(" Browser not initialized. Launching browser...");
             lunchBrowser();
         }
         if (page == null) {

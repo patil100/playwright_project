@@ -2,7 +2,7 @@
 <suite name="MyTestSuite">
     <test name="MyTest">
         <classes>
-            <class name="example.login_test"/>
+            <class name="example.Admin"/>
         </classes>
     </test>
 </suite>

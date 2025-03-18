@@ -1,2 +1,164 @@
 2025-03-17 10:53:53 INFO  login_test:34 - browser opened
 2025-03-17 10:54:02 INFO  login_test:36 - open Cross border page
+2025-03-17 12:48:01 INFO  login_test:34 - browser opened
+2025-03-17 12:48:03 INFO  login_test:36 - open Cross border page
+2025-03-17 12:48:16 INFO  login_test:61 - login Sucessfully
+2025-03-17 12:57:51 INFO  login_test:34 - browser opened
+2025-03-17 12:57:53 INFO  login_test:36 - open Cross border page
+2025-03-17 12:58:06 INFO  login_test:61 - login Sucessfully
+2025-03-17 14:22:32 INFO  merchant:25 - browser opened
+2025-03-17 14:22:36 INFO  merchant:27 - open Cross border page
+2025-03-17 14:22:49 INFO  merchant:52 - login Sucessfully
+2025-03-17 15:02:42 INFO  merchant:25 - browser opened
+2025-03-17 15:02:45 INFO  merchant:27 - open Cross border page
+2025-03-17 15:05:39 INFO  merchant:25 - browser opened
+2025-03-17 15:05:42 INFO  merchant:27 - open Cross border page
+2025-03-17 15:10:05 INFO  merchant:25 - browser opened
+2025-03-17 15:10:20 INFO  merchant:27 - open Cross border page
+2025-03-17 15:10:33 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-17 15:21:27 INFO  merchant:25 - browser opened
+2025-03-17 15:21:31 INFO  merchant:27 - open Cross border page
+2025-03-17 15:21:45 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-17 15:23:08 INFO  merchant:25 - browser opened
+2025-03-17 15:23:11 INFO  merchant:27 - open Cross border page
+2025-03-17 15:23:24 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-17 15:43:30 INFO  merchant:25 - browser opened
+2025-03-17 15:43:32 INFO  merchant:27 - open Cross border page
+2025-03-17 15:43:45 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-17 16:00:25 INFO  merchant:25 - browser opened
+2025-03-17 16:00:27 INFO  merchant:27 - open Cross border page
+2025-03-17 16:00:40 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-17 16:07:48 INFO  merchant:25 - browser opened
+2025-03-17 16:07:51 INFO  merchant:27 - open Cross border page
+2025-03-17 16:08:03 INFO  merchant:51 - Merchant login Sucessfully
+2025-03-17 17:21:43 INFO  merchant:25 - browser opened
+2025-03-17 17:21:45 INFO  merchant:27 - open Cross border page
+2025-03-17 17:21:58 INFO  merchant:51 - Merchant login Sucessfully
+2025-03-17 17:55:16 INFO  merchant:25 - browser opened
+2025-03-17 17:55:18 INFO  merchant:27 - open Cross border page
+2025-03-17 17:55:32 INFO  merchant:51 - Merchant login Sucessfully
+2025-03-17 17:56:30 INFO  merchant:25 - browser opened
+2025-03-17 17:56:32 INFO  merchant:27 - open Cross border page
+2025-03-17 17:56:45 INFO  merchant:51 - Merchant login Sucessfully
+2025-03-17 17:58:54 INFO  merchant:25 - browser opened
+2025-03-17 17:58:55 INFO  merchant:27 - open Cross border page
+2025-03-17 17:59:08 INFO  merchant:51 - Merchant login Sucessfully
+2025-03-18 09:51:21 INFO  merchant:26 - browser opened
+2025-03-18 09:51:23 INFO  merchant:28 - open Cross border page
+2025-03-18 09:51:36 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 09:53:52 INFO  merchant:26 - browser opened
+2025-03-18 09:53:55 INFO  merchant:28 - open Cross border page
+2025-03-18 09:54:08 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 10:05:58 INFO  merchant:26 - browser opened
+2025-03-18 10:06:00 INFO  merchant:28 - open Cross border page
+2025-03-18 10:06:14 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 10:12:19 INFO  merchant:26 - browser opened
+2025-03-18 10:12:22 INFO  merchant:28 - open Cross border page
+2025-03-18 10:12:35 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 10:14:40 INFO  merchant:26 - browser opened
+2025-03-18 10:14:49 INFO  merchant:28 - open Cross border page
+2025-03-18 10:15:02 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 11:59:26 INFO  merchant:26 - browser opened
+2025-03-18 11:59:32 INFO  merchant:28 - open Cross border page
+2025-03-18 11:59:44 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 12:04:32 INFO  merchant:26 - browser opened
+2025-03-18 12:04:40 INFO  merchant:28 - open Cross border page
+2025-03-18 12:04:52 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 12:17:34 INFO  merchant:26 - browser opened
+2025-03-18 12:17:40 INFO  merchant:28 - open Cross border page
+2025-03-18 12:17:53 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 14:09:41 INFO  merchant:26 - browser opened
+2025-03-18 14:09:48 INFO  merchant:28 - open Cross border page
+2025-03-18 14:10:00 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 14:13:05 INFO  merchant:26 - browser opened
+2025-03-18 14:13:12 INFO  merchant:28 - open Cross border page
+2025-03-18 14:13:25 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 14:14:32 INFO  merchant:26 - browser opened
+2025-03-18 14:14:38 INFO  merchant:28 - open Cross border page
+2025-03-18 14:14:50 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 14:21:40 INFO  merchant:26 - browser opened
+2025-03-18 14:21:46 INFO  merchant:28 - open Cross border page
+2025-03-18 14:21:59 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 14:29:14 INFO  merchant:27 - browser opened
+2025-03-18 14:29:20 INFO  merchant:29 - open Cross border page
+2025-03-18 14:54:45 INFO  merchant:24 - browser opened
+2025-03-18 14:54:51 INFO  merchant:26 - open Cross border page
+2025-03-18 14:56:44 INFO  merchant:24 - browser opened
+2025-03-18 14:56:49 INFO  merchant:26 - open Cross border page
+2025-03-18 14:58:32 INFO  merchant:24 - browser opened
+2025-03-18 14:58:38 INFO  merchant:26 - open Cross border page
+2025-03-18 15:00:57 INFO  merchant:24 - browser opened
+2025-03-18 15:01:04 INFO  merchant:26 - open Cross border page
+2025-03-18 15:02:29 INFO  merchant:24 - browser opened
+2025-03-18 15:02:36 INFO  merchant:26 - open Cross border page
+2025-03-18 15:09:15 INFO  merchant:24 - browser opened
+2025-03-18 15:09:22 INFO  merchant:26 - open Cross border page
+2025-03-18 15:09:34 INFO  merchant:52 - Merchant login Sucessfully
+2025-03-18 15:17:55 INFO  merchant:25 - browser opened
+2025-03-18 15:18:02 INFO  merchant:27 - open Cross border page
+2025-03-18 15:18:15 INFO  merchant:53 - Merchant login Sucessfully
+2025-03-18 15:21:59 INFO  merchant:25 - browser opened
+2025-03-18 15:22:06 INFO  merchant:27 - open Cross border page
+2025-03-18 15:22:19 INFO  merchant:53 - Merchant login Sucessfully
+2025-03-18 15:30:05 INFO  merchant:25 - browser opened
+2025-03-18 15:30:14 INFO  merchant:27 - open Cross border page
+2025-03-18 15:30:27 INFO  merchant:53 - Merchant login Sucessfully
+2025-03-18 15:32:16 INFO  merchant:25 - browser opened
+2025-03-18 15:32:22 INFO  merchant:27 - open Cross border page
+2025-03-18 15:32:36 INFO  merchant:53 - Merchant login Sucessfully
+2025-03-18 15:37:48 INFO  merchant:25 - browser opened
+2025-03-18 15:37:55 INFO  merchant:27 - open Cross border page
+2025-03-18 15:38:08 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:38:46 INFO  merchant:105 - browser closed
+2025-03-18 15:39:48 INFO  merchant:25 - browser opened
+2025-03-18 15:39:55 INFO  merchant:27 - open Cross border page
+2025-03-18 15:40:08 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:40:48 INFO  merchant:108 - browser closed
+2025-03-18 15:48:17 INFO  merchant:25 - browser opened
+2025-03-18 15:48:25 INFO  merchant:27 - open Cross border page
+2025-03-18 15:48:38 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:49:14 INFO  merchant:111 - browser closed
+2025-03-18 15:52:27 INFO  merchant:25 - browser opened
+2025-03-18 15:52:33 INFO  merchant:27 - open Cross border page
+2025-03-18 15:52:46 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:53:25 INFO  merchant:111 - browser closed
+2025-03-18 15:55:25 INFO  merchant:25 - browser opened
+2025-03-18 15:55:31 INFO  merchant:27 - open Cross border page
+2025-03-18 15:55:45 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:56:20 INFO  merchant:112 - browser closed
+2025-03-18 15:58:57 INFO  merchant:25 - browser opened
+2025-03-18 15:59:05 INFO  merchant:27 - open Cross border page
+2025-03-18 15:59:17 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 15:59:55 INFO  merchant:112 - browser closed
+2025-03-18 16:03:10 INFO  merchant:25 - browser opened
+2025-03-18 16:03:18 INFO  merchant:27 - open Cross border page
+2025-03-18 16:03:31 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 16:03:38 INFO  merchant:126 - browser closed
+2025-03-18 16:05:15 INFO  merchant:25 - browser opened
+2025-03-18 16:05:21 INFO  merchant:27 - open Cross border page
+2025-03-18 16:05:34 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 16:06:11 INFO  merchant:126 - browser closed
+2025-03-18 16:21:45 INFO  merchant:25 - browser opened
+2025-03-18 16:21:56 INFO  merchant:27 - open Cross border page
+2025-03-18 16:22:09 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 16:22:47 INFO  merchant:126 - browser closed
+2025-03-18 16:23:56 INFO  merchant:25 - browser opened
+2025-03-18 16:24:05 INFO  merchant:27 - open Cross border page
+2025-03-18 16:24:19 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 16:24:57 INFO  merchant:126 - browser closed
+2025-03-18 16:27:21 INFO  merchant:25 - browser opened
+2025-03-18 16:27:28 INFO  merchant:27 - open Cross border page
+2025-03-18 16:27:42 INFO  merchant:62 - Merchant login Sucessfully
+2025-03-18 16:27:50 INFO  merchant:126 - browser closed
+2025-03-18 16:37:58 INFO  merchant:25 - browser opened
+2025-03-18 16:38:07 INFO  merchant:27 - open Cross border page
+2025-03-18 16:38:21 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-18 16:38:58 INFO  merchant:113 - browser closed
+2025-03-18 16:40:11 INFO  merchant:25 - browser opened
+2025-03-18 16:40:23 INFO  merchant:27 - open Cross border page
+2025-03-18 16:40:36 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-18 16:40:43 INFO  merchant:113 - browser closed
+2025-03-18 16:55:21 INFO  merchant:25 - browser opened
+2025-03-18 16:55:29 INFO  merchant:27 - open Cross border page
+2025-03-18 16:55:42 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-18 16:56:19 INFO  merchant:108 - browser closed
