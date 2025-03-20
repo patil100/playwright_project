@@ -162,3 +162,216 @@
 2025-03-18 16:55:29 INFO  merchant:27 - open Cross border page
 2025-03-18 16:55:42 INFO  merchant:63 - Merchant login Sucessfully
 2025-03-18 16:56:19 INFO  merchant:108 - browser closed
+2025-03-18 18:01:35 INFO  merchant:25 - browser opened
+2025-03-18 18:01:41 INFO  merchant:27 - open Cross border page
+2025-03-18 18:01:53 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-18 18:02:30 INFO  merchant:108 - browser closed
+2025-03-18 18:04:01 INFO  merchant:25 - browser opened
+2025-03-18 18:04:06 INFO  merchant:27 - open Cross border page
+2025-03-18 18:04:19 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-18 18:04:21 INFO  merchant:108 - browser closed
+2025-03-19 12:18:47 INFO  merchant:26 - browser opened
+2025-03-19 12:18:55 INFO  merchant:28 - open Cross border page
+2025-03-19 12:19:08 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:19:17 INFO  merchant:112 - browser closed
+2025-03-19 12:24:03 INFO  merchant:26 - browser opened
+2025-03-19 12:24:09 INFO  merchant:28 - open Cross border page
+2025-03-19 12:24:22 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:24:59 INFO  merchant:113 - browser closed
+2025-03-19 12:27:53 INFO  merchant:26 - browser opened
+2025-03-19 12:28:00 INFO  merchant:28 - open Cross border page
+2025-03-19 12:28:13 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:28:49 INFO  merchant:113 - browser closed
+2025-03-19 12:30:50 INFO  merchant:26 - browser opened
+2025-03-19 12:30:55 INFO  merchant:28 - open Cross border page
+2025-03-19 12:31:09 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:31:14 INFO  merchant:72 - open static QR page
+2025-03-19 12:31:15 INFO  merchant:74 - click on Create QR button
+2025-03-19 12:31:46 INFO  merchant:115 - browser closed
+2025-03-19 12:35:50 INFO  merchant:26 - browser opened
+2025-03-19 12:35:56 INFO  merchant:28 - open Cross border page
+2025-03-19 12:36:08 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:36:13 INFO  merchant:72 - open static QR page
+2025-03-19 12:36:15 INFO  merchant:74 - click on Create QR button
+2025-03-19 12:36:30 INFO  merchant:115 - browser closed
+2025-03-19 12:39:52 INFO  merchant:26 - browser opened
+2025-03-19 12:39:58 INFO  merchant:28 - open Cross border page
+2025-03-19 12:40:11 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:40:16 INFO  merchant:72 - open static QR page
+2025-03-19 12:40:17 INFO  merchant:74 - click on Create QR button
+2025-03-19 12:40:18 INFO  merchant:115 - browser closed
+2025-03-19 12:45:11 INFO  merchant:26 - browser opened
+2025-03-19 12:45:16 INFO  merchant:28 - open Cross border page
+2025-03-19 12:45:29 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:45:34 INFO  merchant:72 - open static QR page
+2025-03-19 12:45:36 INFO  merchant:74 - click on Create QR button
+2025-03-19 12:45:37 INFO  merchant:117 - browser closed
+2025-03-19 12:48:57 INFO  merchant:26 - browser opened
+2025-03-19 12:49:03 INFO  merchant:28 - open Cross border page
+2025-03-19 12:49:15 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 12:49:20 INFO  merchant:72 - open static QR page
+2025-03-19 12:49:21 INFO  merchant:74 - click on Create QR button
+2025-03-19 12:49:23 INFO  merchant:117 - browser closed
+2025-03-19 15:16:58 INFO  merchant:27 - browser opened
+2025-03-19 15:17:05 INFO  merchant:29 - open Cross border page
+2025-03-19 15:17:18 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:17:49 INFO  merchant:125 - browser closed
+2025-03-19 15:21:15 INFO  merchant:27 - browser opened
+2025-03-19 15:21:21 INFO  merchant:29 - open Cross border page
+2025-03-19 15:21:33 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:22:06 INFO  merchant:126 - browser closed
+2025-03-19 15:26:37 INFO  merchant:27 - browser opened
+2025-03-19 15:26:45 INFO  merchant:29 - open Cross border page
+2025-03-19 15:26:56 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:27:29 INFO  merchant:126 - browser closed
+2025-03-19 15:31:43 INFO  merchant:27 - browser opened
+2025-03-19 15:31:50 INFO  merchant:29 - open Cross border page
+2025-03-19 15:32:02 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:32:34 INFO  merchant:126 - browser closed
+2025-03-19 15:42:16 INFO  merchant:27 - browser opened
+2025-03-19 15:42:22 INFO  merchant:29 - open Cross border page
+2025-03-19 15:42:34 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:42:37 INFO  merchant:128 - browser closed
+2025-03-19 15:50:16 INFO  merchant:27 - browser opened
+2025-03-19 15:50:23 INFO  merchant:29 - open Cross border page
+2025-03-19 15:50:35 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:50:38 INFO  merchant:128 - browser closed
+2025-03-19 15:51:49 INFO  merchant:27 - browser opened
+2025-03-19 15:51:57 INFO  merchant:29 - open Cross border page
+2025-03-19 15:52:09 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 15:52:13 INFO  merchant:128 - browser closed
+2025-03-19 16:09:36 INFO  merchant:27 - browser opened
+2025-03-19 16:09:43 INFO  merchant:29 - open Cross border page
+2025-03-19 16:09:56 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:10:00 INFO  merchant:129 - browser closed
+2025-03-19 16:21:53 INFO  merchant:27 - browser opened
+2025-03-19 16:22:00 INFO  merchant:29 - open Cross border page
+2025-03-19 16:22:13 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:22:43 INFO  merchant:135 - browser closed
+2025-03-19 16:24:16 INFO  merchant:27 - browser opened
+2025-03-19 16:24:21 INFO  merchant:29 - open Cross border page
+2025-03-19 16:24:34 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:25:09 INFO  merchant:135 - browser closed
+2025-03-19 16:28:13 INFO  merchant:27 - browser opened
+2025-03-19 16:28:20 INFO  merchant:29 - open Cross border page
+2025-03-19 16:28:34 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:28:39 INFO  merchant:74 - open static QR page
+2025-03-19 16:28:40 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:28:41 INFO  merchant:83 - Static QR craeted sucessfully
+2025-03-19 16:29:12 INFO  merchant:136 - browser closed
+2025-03-19 16:30:42 INFO  merchant:27 - browser opened
+2025-03-19 16:30:49 INFO  merchant:29 - open Cross border page
+2025-03-19 16:31:02 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:31:07 INFO  merchant:74 - open static QR page
+2025-03-19 16:31:08 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:31:09 INFO  merchant:83 - Static QR craeted sucessfully
+2025-03-19 16:31:41 INFO  merchant:136 - browser closed
+2025-03-19 16:33:21 INFO  merchant:27 - browser opened
+2025-03-19 16:33:28 INFO  merchant:29 - open Cross border page
+2025-03-19 16:33:41 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:33:46 INFO  merchant:74 - open static QR page
+2025-03-19 16:33:47 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:33:48 INFO  merchant:84 - Static QR craeted sucessfully
+2025-03-19 16:34:25 INFO  merchant:137 - browser closed
+2025-03-19 16:37:23 INFO  merchant:27 - browser opened
+2025-03-19 16:37:30 INFO  merchant:29 - open Cross border page
+2025-03-19 16:37:43 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:37:48 INFO  merchant:74 - open static QR page
+2025-03-19 16:37:49 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:37:50 INFO  merchant:84 - Static QR craeted sucessfully
+2025-03-19 16:37:59 INFO  merchant:137 - browser closed
+2025-03-19 16:39:03 INFO  merchant:27 - browser opened
+2025-03-19 16:39:10 INFO  merchant:29 - open Cross border page
+2025-03-19 16:39:23 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:39:28 INFO  merchant:74 - open static QR page
+2025-03-19 16:39:31 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:39:32 INFO  merchant:84 - Static QR craeted sucessfully
+2025-03-19 16:40:01 INFO  merchant:137 - browser closed
+2025-03-19 16:45:14 INFO  merchant:27 - browser opened
+2025-03-19 16:45:20 INFO  merchant:29 - open Cross border page
+2025-03-19 16:45:33 INFO  merchant:63 - Merchant login Sucessfully
+2025-03-19 16:45:38 INFO  merchant:74 - open static QR page
+2025-03-19 16:45:40 INFO  merchant:76 - click on Create QR button
+2025-03-19 16:45:41 INFO  merchant:84 - Static QR created sucessfully
+2025-03-19 16:45:48 INFO  merchant:137 - browser closed
+2025-03-19 17:13:38 INFO  merchant:28 - browser opened
+2025-03-19 17:13:45 INFO  merchant:30 - open Cross border page
+2025-03-19 17:13:58 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:14:03 INFO  merchant:75 - open static QR page
+2025-03-19 17:14:05 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:14:06 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:14:13 INFO  merchant:141 - browser closed
+2025-03-19 17:21:50 INFO  merchant:28 - browser opened
+2025-03-19 17:21:56 INFO  merchant:30 - open Cross border page
+2025-03-19 17:22:08 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:22:14 INFO  merchant:75 - open static QR page
+2025-03-19 17:22:15 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:22:16 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:22:21 INFO  merchant:141 - browser closed
+2025-03-19 17:24:26 INFO  merchant:28 - browser opened
+2025-03-19 17:24:33 INFO  merchant:30 - open Cross border page
+2025-03-19 17:24:46 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:24:51 INFO  merchant:75 - open static QR page
+2025-03-19 17:24:53 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:24:54 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:25:01 INFO  merchant:141 - browser closed
+2025-03-19 17:29:37 INFO  merchant:28 - browser opened
+2025-03-19 17:29:45 INFO  merchant:30 - open Cross border page
+2025-03-19 17:29:58 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:30:03 INFO  merchant:75 - open static QR page
+2025-03-19 17:30:07 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:30:09 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:30:14 INFO  merchant:141 - browser closed
+2025-03-19 17:32:05 INFO  merchant:28 - browser opened
+2025-03-19 17:32:11 INFO  merchant:30 - open Cross border page
+2025-03-19 17:32:24 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:32:29 INFO  merchant:75 - open static QR page
+2025-03-19 17:32:31 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:32:32 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:32:36 INFO  merchant:142 - browser closed
+2025-03-19 17:34:46 INFO  merchant:28 - browser opened
+2025-03-19 17:34:53 INFO  merchant:30 - open Cross border page
+2025-03-19 17:35:05 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:35:11 INFO  merchant:75 - open static QR page
+2025-03-19 17:35:12 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:35:14 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:35:18 INFO  merchant:142 - browser closed
+2025-03-19 17:36:11 INFO  merchant:28 - browser opened
+2025-03-19 17:36:17 INFO  merchant:30 - open Cross border page
+2025-03-19 17:36:30 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-19 17:36:35 INFO  merchant:75 - open static QR page
+2025-03-19 17:36:36 INFO  merchant:77 - click on Create QR button
+2025-03-19 17:36:38 INFO  merchant:85 - Static QR created sucessfully
+2025-03-19 17:36:46 INFO  merchant:141 - browser closed
+2025-03-20 09:14:17 INFO  merchant:28 - browser opened
+2025-03-20 09:14:24 INFO  merchant:30 - open Cross border page
+2025-03-20 09:14:36 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:15:09 INFO  merchant:144 - browser closed
+2025-03-20 09:26:58 INFO  merchant:28 - browser opened
+2025-03-20 09:27:04 INFO  merchant:30 - open Cross border page
+2025-03-20 09:27:17 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:27:20 INFO  merchant:145 - browser closed
+2025-03-20 09:29:00 INFO  merchant:28 - browser opened
+2025-03-20 09:29:07 INFO  merchant:30 - open Cross border page
+2025-03-20 09:29:19 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:29:22 INFO  merchant:146 - browser closed
+2025-03-20 09:35:11 INFO  merchant:28 - browser opened
+2025-03-20 09:35:18 INFO  merchant:30 - open Cross border page
+2025-03-20 09:35:31 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:35:38 INFO  merchant:153 - browser closed
+2025-03-20 09:38:27 INFO  merchant:28 - browser opened
+2025-03-20 09:38:32 INFO  merchant:30 - open Cross border page
+2025-03-20 09:38:45 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:38:52 INFO  merchant:153 - browser closed
+2025-03-20 09:41:32 INFO  merchant:28 - browser opened
+2025-03-20 09:41:37 INFO  merchant:30 - open Cross border page
+2025-03-20 09:41:51 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:41:59 INFO  merchant:155 - browser closed
+2025-03-20 09:49:04 INFO  merchant:28 - browser opened
+2025-03-20 09:49:10 INFO  merchant:30 - open Cross border page
+2025-03-20 09:49:24 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:50:02 INFO  merchant:167 - browser closed
+2025-03-20 09:51:50 INFO  merchant:28 - browser opened
+2025-03-20 09:51:55 INFO  merchant:30 - open Cross border page
+2025-03-20 09:52:08 INFO  merchant:64 - Merchant login Sucessfully
+2025-03-20 09:52:21 INFO  merchant:169 - browser closed

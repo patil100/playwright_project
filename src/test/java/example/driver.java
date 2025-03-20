@@ -23,6 +23,7 @@ public class driver {
             browserContext = browser.newContext();
             page = browserContext.newPage();
 
+
         } catch (Exception e) {
             System.out.println("browser lunch failed " + e.getMessage());
             e.printStackTrace();
